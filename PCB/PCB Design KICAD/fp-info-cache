@@ -1,4 +1,4 @@
-27222563113663924
+27231426601410979
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -71806,6 +71806,20 @@ Yellow 5381 Series LED
 2
 2
 Library
+DIO-BG-TH_KBPC3510
+
+
+0
+4
+4
+Library
+EBOOT MINI MP1584EN DC-DC BUCK CONVERTER ADJUSTABLE POWER STEP DOWN MODULE 24V TO 12V 9V 5V 3V, 6 PACK
+
+
+0
+8
+4
+Library
 ECO-MAX485-TTL-TO-RS-485-MODULE
 
 
@@ -71813,12 +71827,33 @@ ECO-MAX485-TTL-TO-RS-485-MODULE
 7
 7
 Library
+MODULE_ESP32-DEVKITC-32D
+
+
+0
+38
+38
+Library
 MODULE_MAX485_MODULE_5V_LOGIC_TLL_TO_RS-485_CONVERTER
 
 
 0
 8
 8
+Library
+MODULE_TMC2209_SILENTSTEPSTICK
+
+
+0
+18
+18
+Library
+XL4015 DC-DC STEP DOWN MODULE
+
+
+0
+4
+4
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet

@@ -2,12 +2,12 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "45296ee7-52c3-4bc6-b17b-9e2c5f0e6ce0")
+	(uuid "8e4f15b9-abd6-436a-9fb0-d895efa0c8c7")
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 24.13 27.94)
-		(size 110.49 34.29)
+		(at 21.59 69.85)
+		(size 110.49 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -20,51 +20,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "b9804ddb-2ce3-447d-b9fe-ea8d61295ec1")
-		(property "Sheetname" "Power & Regulation"
-			(at 24.13 27.2284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Power & Regulation.kicad_sch"
-			(at 24.13 62.8146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Base Circuit"
-				(path "/45296ee7-52c3-4bc6-b17b-9e2c5f0e6ce0"
-					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 163.83 82.55)
-		(size 110.49 39.37)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "becb5771-51ad-4a50-9458-3983d1ee0950")
+		(uuid "01807959-e294-4494-bb6b-cc9880d57ed3")
 		(property "Sheetname" "Actuation & Drive"
-			(at 163.83 81.8384 0)
+			(at 21.59 69.1384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +31,7 @@
 			)
 		)
 		(property "Sheetfile" "Actuation & Drive.kicad_sch"
-			(at 163.83 122.5046 0)
+			(at 21.59 108.5346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -82,16 +40,16 @@
 			)
 		)
 		(instances
-			(project "Base Circuit"
-				(path "/45296ee7-52c3-4bc6-b17b-9e2c5f0e6ce0"
+			(project "PCB BASE"
+				(path "/8e4f15b9-abd6-436a-9fb0-d895efa0c8c7"
 					(page "4")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 163.83 26.67)
-		(size 110.49 35.56)
+		(at 153.67 19.05)
+		(size 114.3 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -104,51 +62,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "e2edee34-26ac-4f49-b4bc-77532e87de64")
-		(property "Sheetname" "MCU & Communication"
-			(at 163.83 25.9584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "MCU & Communication.kicad_sch"
-			(at 163.83 62.8146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Base Circuit"
-				(path "/45296ee7-52c3-4bc6-b17b-9e2c5f0e6ce0"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 22.86 80.01)
-		(size 110.49 41.91)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "ea820ac4-0ec8-49f2-a7c7-4c1171250fa1")
+		(uuid "b4c307cc-eacb-4230-af9d-8c1747b80f23")
 		(property "Sheetname" "Perception & Odometry"
-			(at 22.86 79.2984 0)
+			(at 153.67 18.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -157,7 +73,7 @@
 			)
 		)
 		(property "Sheetfile" "Perception & Odometry.kicad_sch"
-			(at 22.86 122.5046 0)
+			(at 153.67 48.8446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -166,9 +82,93 @@
 			)
 		)
 		(instances
-			(project "Base Circuit"
-				(path "/45296ee7-52c3-4bc6-b17b-9e2c5f0e6ce0"
-					(page "4")
+			(project "PCB BASE"
+				(path "/8e4f15b9-abd6-436a-9fb0-d895efa0c8c7"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 16.51 16.51)
+		(size 109.22 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b88b5892-45c6-4698-9eec-552c17f657e4")
+		(property "Sheetname" "Power & Regulation"
+			(at 16.51 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power & Regulation.kicad_sch"
+			(at 16.51 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB BASE"
+				(path "/8e4f15b9-abd6-436a-9fb0-d895efa0c8c7"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 69.85)
+		(size 114.3 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ec0b1b5a-2096-47a2-afa3-9682ef7d52c3")
+		(property "Sheetname" "MCU & Communication"
+			(at 156.21 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU & Communication.kicad_sch"
+			(at 156.21 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB BASE"
+				(path "/8e4f15b9-abd6-436a-9fb0-d895efa0c8c7"
+					(page "5")
 				)
 			)
 		)

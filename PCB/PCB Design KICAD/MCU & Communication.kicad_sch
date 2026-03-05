@@ -3943,6 +3943,28 @@
 			)
 		)
 	)
+	(global_label "CANL"
+		(shape input)
+		(at 161.29 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d339b0b-6db1-4cd3-8871-f44de40764e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.5876 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RS_RX_RASP"
 		(shape input)
 		(at 44.45 123.19 180)
@@ -4801,28 +4823,6 @@
 			)
 		)
 	)
-	(global_label "CANL"
-		(shape input)
-		(at 161.29 154.94 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a6f9e909-5f12-4ff5-9deb-8f34f98d4399")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.5876 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "5V"
 		(shape input)
 		(at 57.15 76.2 180)
@@ -5307,6 +5307,28 @@
 			)
 		)
 	)
+	(global_label "CANH"
+		(shape input)
+		(at 161.29 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e40639bf-43f7-49a8-9e44-29c2e4deb967")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.2852 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "A_RS"
 		(shape input)
 		(at 222.25 110.49 180)
@@ -5395,28 +5417,6 @@
 			)
 		)
 	)
-	(global_label "CANH"
-		(shape input)
-		(at 161.29 152.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f59a7a39-5de8-4efe-9632-d6713e7d9c3d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.2852 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TX"
 		(shape input)
 		(at 156.21 87.63 180)
@@ -5471,7 +5471,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03184492-1136-4417-b5fb-4b5e36714131")
-		(property "Reference" "Termination_Resistor"
+		(property "Reference" "Termination_Resistor1"
 			(at 243.84 63.5 90)
 			(effects
 				(font
@@ -5487,7 +5487,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 243.84 58.928 90)
 			(effects
 				(font
@@ -5527,6 +5527,12 @@
 					(unit 1)
 				)
 			)
+			(project "PCB BASE"
+				(path "/8e4f15b9-abd6-436a-9fb0-d895efa0c8c7/ec0b1b5a-2096-47a2-afa3-9682ef7d52c3"
+					(reference "Termination_Resistor1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5538,7 +5544,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "049d5493-5bc0-4d4c-9ed9-597b4074dee8")
-		(property "Reference" "J2"
+		(property "Reference" "J4"
 			(at 173.99 33.0201 0)
 			(effects
 				(font
@@ -5556,7 +5562,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 172.72 33.02 0)
 			(effects
 				(font
@@ -5596,6 +5602,12 @@
 					(unit 1)
 				)
 			)
+			(project "PCB BASE"
+				(path "/8e4f15b9-abd6-436a-9fb0-d895efa0c8c7/ec0b1b5a-2096-47a2-afa3-9682ef7d52c3"
+					(reference "J4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5625,7 +5637,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 172.72 83.82 0)
 			(effects
 				(font
@@ -5665,6 +5677,12 @@
 					(unit 1)
 				)
 			)
+			(project "PCB BASE"
+				(path "/8e4f15b9-abd6-436a-9fb0-d895efa0c8c7/ec0b1b5a-2096-47a2-afa3-9682ef7d52c3"
+					(reference "J5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5677,7 +5695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12d93ddf-23cc-4a2d-81fe-2cc2deffea04")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR0134"
 			(at 241.3 41.91 0)
 			(effects
 				(font
@@ -5731,6 +5749,12 @@
 					(unit 1)
 				)
 			)
+			(project "PCB BASE"
+				(path "/8e4f15b9-abd6-436a-9fb0-d895efa0c8c7/ec0b1b5a-2096-47a2-afa3-9682ef7d52c3"
+					(reference "#PWR0134")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5743,7 +5767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14b10f93-79f5-4706-8cd7-665909e4a83b")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR0140"
 			(at 77.47 175.26 0)
 			(effects
 				(font
@@ -5797,6 +5821,12 @@
 					(unit 1)
 				)
 			)
+			(project "PCB BASE"
+				(path "/8e4f15b9-abd6-436a-9fb0-d895efa0c8c7/ec0b1b5a-2096-47a2-afa3-9682ef7d52c3"
+					(reference "#PWR0140")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5809,7 +5839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1946dda0-155c-4555-818e-c73a833e3d98")
-		(property "Reference" "RS485_ESP"
+		(property "Reference" "RS485_ESP1"
 			(at 241.3 95.25 0)
 			(effects
 				(font
@@ -5825,7 +5855,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:MODULE_MAX485_MODULE_5V_LOGIC_TLL_TO_RS-485_CONVERTER"
 			(at 237.49 107.95 0)
 			(effects
 				(font
@@ -5889,6 +5919,12 @@
 					(unit 1)
 				)
 			)
+			(project "PCB BASE"
+				(path "/8e4f15b9-abd6-436a-9fb0-d895efa0c8c7/ec0b1b5a-2096-47a2-afa3-9682ef7d52c3"
+					(reference "RS485_ESP1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5901,7 +5937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ba83af0-c83f-41d3-8593-73edfeed9c84")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR0135"
 			(at 275.59 110.49 0)
 			(effects
 				(font
@@ -5955,6 +5991,12 @@
 					(unit 1)
 				)
 			)
+			(project "PCB BASE"
+				(path "/8e4f15b9-abd6-436a-9fb0-d895efa0c8c7/ec0b1b5a-2096-47a2-afa3-9682ef7d52c3"
+					(reference "#PWR0135")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5967,7 +6009,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46dfed9c-95c5-436c-8570-cc05fdf1dabe")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR0138"
 			(at 212.09 113.03 0)
 			(effects
 				(font
@@ -6021,6 +6063,12 @@
 					(unit 1)
 				)
 			)
+			(project "PCB BASE"
+				(path "/8e4f15b9-abd6-436a-9fb0-d895efa0c8c7/ec0b1b5a-2096-47a2-afa3-9682ef7d52c3"
+					(reference "#PWR0138")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6033,7 +6081,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47b10d9d-3b92-48dc-af24-159e578a1692")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR0132"
 			(at 111.76 53.34 0)
 			(effects
 				(font
@@ -6087,6 +6135,12 @@
 					(unit 1)
 				)
 			)
+			(project "PCB BASE"
+				(path "/8e4f15b9-abd6-436a-9fb0-d895efa0c8c7/ec0b1b5a-2096-47a2-afa3-9682ef7d52c3"
+					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6099,7 +6153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5163239b-508d-4b1a-a534-b8caf454f155")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 77.47 22.86 0)
 			(effects
 				(font
@@ -6115,7 +6169,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32-DEVKITC-32D:MODULE_ESP32-DEVKITC-32D"
+		(property "Footprint" "Library:MODULE_ESP32-DEVKITC-32D"
 			(at 77.47 53.34 0)
 			(effects
 				(font
@@ -6394,6 +6448,12 @@
 					(unit 1)
 				)
 			)
+			(project "PCB BASE"
+				(path "/8e4f15b9-abd6-436a-9fb0-d895efa0c8c7/ec0b1b5a-2096-47a2-afa3-9682ef7d52c3"
+					(reference "U2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6406,7 +6466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58e43a43-eb97-4f50-91a4-708831db5077")
-		(property "Reference" "J1"
+		(property "Reference" "RASPBERRY_PI1"
 			(at 77.47 107.95 0)
 			(effects
 				(font
@@ -6422,7 +6482,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_IDC:IDC-Header_2x20_P2.54mm_Vertical"
 			(at 147.574 185.928 0)
 			(effects
 				(font
@@ -6579,6 +6639,12 @@
 					(unit 1)
 				)
 			)
+			(project "PCB BASE"
+				(path "/8e4f15b9-abd6-436a-9fb0-d895efa0c8c7/ec0b1b5a-2096-47a2-afa3-9682ef7d52c3"
+					(reference "RASPBERRY_PI1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6592,7 +6658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "615d4cb3-d306-4077-93d4-961558a317ef")
-		(property "Reference" "Jumper_Shunt"
+		(property "Reference" "Jumper_Shunt1"
 			(at 172.085 35.56 0)
 			(effects
 				(font
@@ -6608,7 +6674,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 172.72 43.18 0)
 			(effects
 				(font
@@ -6651,6 +6717,12 @@
 					(unit 1)
 				)
 			)
+			(project "PCB BASE"
+				(path "/8e4f15b9-abd6-436a-9fb0-d895efa0c8c7/ec0b1b5a-2096-47a2-afa3-9682ef7d52c3"
+					(reference "Jumper_Shunt1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6663,7 +6735,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6596d358-c6a0-4922-bd5e-84901c6db244")
-		(property "Reference" "CAN_BUS"
+		(property "Reference" "CAN_BUS1"
 			(at 255.27 30.4799 0)
 			(effects
 				(font
@@ -6681,7 +6753,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm"
 			(at 252.73 31.75 0)
 			(effects
 				(font
@@ -6724,6 +6796,12 @@
 					(unit 1)
 				)
 			)
+			(project "PCB BASE"
+				(path "/8e4f15b9-abd6-436a-9fb0-d895efa0c8c7/ec0b1b5a-2096-47a2-afa3-9682ef7d52c3"
+					(reference "CAN_BUS1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6736,7 +6814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8730b24b-3191-4581-8108-6de341aa6a1a")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR0133"
 			(at 245.11 91.44 0)
 			(effects
 				(font
@@ -6790,6 +6868,12 @@
 					(unit 1)
 				)
 			)
+			(project "PCB BASE"
+				(path "/8e4f15b9-abd6-436a-9fb0-d895efa0c8c7/ec0b1b5a-2096-47a2-afa3-9682ef7d52c3"
+					(reference "#PWR0133")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6802,7 +6886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8895b038-2fc3-488d-b54c-77ca3e1dab97")
-		(property "Reference" "RS485_RASP"
+		(property "Reference" "RS485_RASP1"
 			(at 241.3 134.62 0)
 			(effects
 				(font
@@ -6818,7 +6902,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:MODULE_MAX485_MODULE_5V_LOGIC_TLL_TO_RS-485_CONVERTER"
 			(at 237.49 147.32 0)
 			(effects
 				(font
@@ -6882,6 +6966,12 @@
 					(unit 1)
 				)
 			)
+			(project "PCB BASE"
+				(path "/8e4f15b9-abd6-436a-9fb0-d895efa0c8c7/ec0b1b5a-2096-47a2-afa3-9682ef7d52c3"
+					(reference "RS485_RASP1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6895,7 +6985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b7d2ae5-c5fd-4a7d-bf20-9686f11971d6")
-		(property "Reference" "Jumper_Shunt1"
+		(property "Reference" "Jumper_Shunt2"
 			(at 172.085 86.36 0)
 			(effects
 				(font
@@ -6911,7 +7001,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 172.72 93.98 0)
 			(effects
 				(font
@@ -6954,11 +7044,17 @@
 					(unit 1)
 				)
 			)
+			(project "PCB BASE"
+				(path "/8e4f15b9-abd6-436a-9fb0-d895efa0c8c7/ec0b1b5a-2096-47a2-afa3-9682ef7d52c3"
+					(reference "Jumper_Shunt2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 166.37 152.4 0)
+		(at 166.37 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6966,16 +7062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a11ae8b0-fb29-400c-92a6-4cb7f31a7cc8")
-		(property "Reference" "MCP2515_CAN_MODULE_T-BLOCK"
-			(at 168.91 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
+		(property "Reference" "MCP2515_CAN_MODULE_T-BLOCK1"
 			(at 168.91 154.9399 0)
 			(effects
 				(font
@@ -6984,8 +7071,17 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 166.37 152.4 0)
+		(property "Value" "Conn_01x02"
+			(at 168.91 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 166.37 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6994,7 +7090,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 152.4 0)
+			(at 166.37 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7003,7 +7099,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 166.37 152.4 0)
+			(at 166.37 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7018,9 +7114,9 @@
 			(uuid "9bb035b7-1c07-47b2-a92f-49279c06ff0b")
 		)
 		(instances
-			(project ""
-				(path "/45296ee7-52c3-4bc6-b17b-9e2c5f0e6ce0/e2edee34-26ac-4f49-b4bc-77532e87de64"
-					(reference "MCP2515_CAN_MODULE_T-BLOCK")
+			(project "PCB BASE"
+				(path "/8e4f15b9-abd6-436a-9fb0-d895efa0c8c7/ec0b1b5a-2096-47a2-afa3-9682ef7d52c3"
+					(reference "MCP2515_CAN_MODULE_T-BLOCK1")
 					(unit 1)
 				)
 			)
@@ -7036,7 +7132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a23d4400-255f-4de4-a104-6cce6d960ce9")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR0141"
 			(at 40.64 71.12 0)
 			(effects
 				(font
@@ -7090,6 +7186,12 @@
 					(unit 1)
 				)
 			)
+			(project "PCB BASE"
+				(path "/8e4f15b9-abd6-436a-9fb0-d895efa0c8c7/ec0b1b5a-2096-47a2-afa3-9682ef7d52c3"
+					(reference "#PWR0141")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7101,7 +7203,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a62f98c2-4b68-41a7-8c75-a2350df5001a")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR0137"
 			(at 236.22 55.88 0)
 			(effects
 				(font
@@ -7155,6 +7257,12 @@
 					(unit 1)
 				)
 			)
+			(project "PCB BASE"
+				(path "/8e4f15b9-abd6-436a-9fb0-d895efa0c8c7/ec0b1b5a-2096-47a2-afa3-9682ef7d52c3"
+					(reference "#PWR0137")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7168,7 +7276,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3a3d5ad-729c-4f7b-9951-e6d79cf66e38")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 170.815 48.26 0)
 			(effects
 				(font
@@ -7184,7 +7292,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 171.45 53.34 0)
 			(effects
 				(font
@@ -7224,6 +7332,12 @@
 					(unit 1)
 				)
 			)
+			(project "PCB BASE"
+				(path "/8e4f15b9-abd6-436a-9fb0-d895efa0c8c7/ec0b1b5a-2096-47a2-afa3-9682ef7d52c3"
+					(reference "J2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7236,7 +7350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbb58d67-e590-4be8-be8f-d1d5f557195a")
-		(property "Reference" "SN65HVD230_MODULE"
+		(property "Reference" "SN65HVD230_MODULE1"
 			(at 256.54 50.7999 0)
 			(effects
 				(font
@@ -7254,7 +7368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
 			(at 254 50.8 0)
 			(effects
 				(font
@@ -7306,6 +7420,12 @@
 					(unit 1)
 				)
 			)
+			(project "PCB BASE"
+				(path "/8e4f15b9-abd6-436a-9fb0-d895efa0c8c7/ec0b1b5a-2096-47a2-afa3-9682ef7d52c3"
+					(reference "SN65HVD230_MODULE1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7318,7 +7438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c18e300c-4b4d-4291-8800-320d5cc912ad")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR0136"
 			(at 276.86 151.13 0)
 			(effects
 				(font
@@ -7372,6 +7492,12 @@
 					(unit 1)
 				)
 			)
+			(project "PCB BASE"
+				(path "/8e4f15b9-abd6-436a-9fb0-d895efa0c8c7/ec0b1b5a-2096-47a2-afa3-9682ef7d52c3"
+					(reference "#PWR0136")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7384,7 +7510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd8bed5c-31f0-4e28-85dd-e3daf53e57a8")
-		(property "Reference" "JMCP2515_CAN_MODULE"
+		(property "Reference" "JMCP2515_CAN_MODULE1"
 			(at 168.91 138.4299 0)
 			(effects
 				(font
@@ -7402,7 +7528,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
 			(at 166.37 139.7 0)
 			(effects
 				(font
@@ -7457,6 +7583,12 @@
 					(unit 1)
 				)
 			)
+			(project "PCB BASE"
+				(path "/8e4f15b9-abd6-436a-9fb0-d895efa0c8c7/ec0b1b5a-2096-47a2-afa3-9682ef7d52c3"
+					(reference "JMCP2515_CAN_MODULE1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7469,7 +7601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e11e088e-b4b8-42b5-adb0-0148959b4cf3")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR0142"
 			(at 152.4 143.51 0)
 			(effects
 				(font
@@ -7523,6 +7655,12 @@
 					(unit 1)
 				)
 			)
+			(project "PCB BASE"
+				(path "/8e4f15b9-abd6-436a-9fb0-d895efa0c8c7/ec0b1b5a-2096-47a2-afa3-9682ef7d52c3"
+					(reference "#PWR0142")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7535,7 +7673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2f937f7-fb0a-44e4-b37d-d28875acb2ed")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR0131"
 			(at 113.03 38.1 0)
 			(effects
 				(font
@@ -7589,6 +7727,12 @@
 					(unit 1)
 				)
 			)
+			(project "PCB BASE"
+				(path "/8e4f15b9-abd6-436a-9fb0-d895efa0c8c7/ec0b1b5a-2096-47a2-afa3-9682ef7d52c3"
+					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7602,7 +7746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8c8f76c-a765-43e7-8e28-cdfc0d20f734")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 170.815 99.06 0)
 			(effects
 				(font
@@ -7618,7 +7762,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 171.45 104.14 0)
 			(effects
 				(font
@@ -7658,6 +7802,12 @@
 					(unit 1)
 				)
 			)
+			(project "PCB BASE"
+				(path "/8e4f15b9-abd6-436a-9fb0-d895efa0c8c7/ec0b1b5a-2096-47a2-afa3-9682ef7d52c3"
+					(reference "J3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7670,7 +7820,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0852520-de94-4d29-a430-de7dedca3310")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR0139"
 			(at 212.09 152.4 0)
 			(effects
 				(font
@@ -7724,6 +7874,12 @@
 					(unit 1)
 				)
 			)
+			(project "PCB BASE"
+				(path "/8e4f15b9-abd6-436a-9fb0-d895efa0c8c7/ec0b1b5a-2096-47a2-afa3-9682ef7d52c3"
+					(reference "#PWR0139")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7736,7 +7892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9604682-d834-476d-83ad-cb248ec5c14f")
-		(property "Reference" "RS_BUS"
+		(property "Reference" "RS_BUS1"
 			(at 256.54 78.7399 0)
 			(effects
 				(font
@@ -7754,7 +7910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm"
 			(at 254 80.01 0)
 			(effects
 				(font
@@ -7794,6 +7950,12 @@
 			(project ""
 				(path "/45296ee7-52c3-4bc6-b17b-9e2c5f0e6ce0/e2edee34-26ac-4f49-b4bc-77532e87de64"
 					(reference "RS_BUS")
+					(unit 1)
+				)
+			)
+			(project "PCB BASE"
+				(path "/8e4f15b9-abd6-436a-9fb0-d895efa0c8c7/ec0b1b5a-2096-47a2-afa3-9682ef7d52c3"
+					(reference "RS_BUS1")
 					(unit 1)
 				)
 			)
