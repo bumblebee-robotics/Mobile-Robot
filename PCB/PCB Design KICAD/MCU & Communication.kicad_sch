@@ -5855,7 +5855,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:MODULE_MAX485_MODULE_5V_LOGIC_TLL_TO_RS-485_CONVERTER"
+		(property "Footprint" "Library:ECO-MAX485-TTL-TO-RS-485-MODULE"
 			(at 237.49 107.95 0)
 			(effects
 				(font
@@ -6902,7 +6902,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:MODULE_MAX485_MODULE_5V_LOGIC_TLL_TO_RS-485_CONVERTER"
+		(property "Footprint" "Library:ECO-MAX485-TTL-TO-RS-485-MODULE"
 			(at 237.49 147.32 0)
 			(effects
 				(font
