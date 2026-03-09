@@ -158,8 +158,14 @@ fprintf('Estimated Pack Weight:    %.2f kg\n', Total_Pack_Weight);
 fprintf('=========================================\n');
 
 %% 8. Phase 1 Safety: Main Fuse Sizing
+<<<<<<< Updated upstream
 fuse_margin = 1.2; 
 I_fuse_calc = I_batt_peak * fuse_margin;
+=======
+% The fuse is sized based on the actual FSM Mission Peak, plus a safety margin.
+fuse_margin = 1.2; 
+I_fuse_calc = I_mission_peak * fuse_margin;
+>>>>>>> Stashed changes
 standard_fuses = [5, 7.5, 10, 15, 20, 25, 30, 40, 50, 60, 80];
 
 valid_fuses = standard_fuses(standard_fuses >= I_fuse_calc);
@@ -171,7 +177,11 @@ else
 end
 
 fprintf('\n=== PHASE 1 SAFETY: MAIN FUSE SELECTION ===\n');
+<<<<<<< Updated upstream
 fprintf('System Peak Current:      %.2f A\n', I_batt_peak);
+=======
+fprintf('Mission Peak Current:     %.2f A\n', I_mission_peak);
+>>>>>>> Stashed changes
 fprintf('Calculated Min Fuse:      %.2f A (with 20%% margin)\n', I_fuse_calc);
 fprintf('Recommended Main Fuse:    %d A \n', Main_Fuse_A);
 fprintf('===========================================\n\n');
