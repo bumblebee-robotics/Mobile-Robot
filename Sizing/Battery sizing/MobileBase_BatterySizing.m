@@ -181,6 +181,9 @@ fprintf('\n=== PHASE 1 SAFETY: MAIN FUSE SELECTION ===\n');
 fprintf('System Peak Current:      %.2f A\n', I_batt_peak);
 =======
 fprintf('Mission Peak Current:     %.2f A\n', I_mission_peak);
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 fprintf('Calculated Min Fuse:      %.2f A (with 20%% margin)\n', I_fuse_calc);
 fprintf('Recommended Main Fuse:    %d A \n', Main_Fuse_A);
